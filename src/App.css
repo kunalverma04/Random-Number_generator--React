@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App{
+  /* border: 2px solid rgb(66, 255, 41); */
+  width: 100%;
+  min-height: 100vh;
+  background-color: #555ab5;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.App .container {
+  /* border: 2px solid navajowhite; */
+  
+  /* width: 100%;
+  max-width: 400px; */
+  /* margin: auto; */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #04042b;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.App .container .randomNum{
+  /* border: 2px solid yellow; */
+  background-color: #181831;
+  padding: 20px;
+}
+
+.App .container .randomNum p span{
+  /* border: 2px solid whitesmoke; */
+  color: #9cff9c;
+  font-weight: 600;
+}
+.App .numContainer{
+  /* border: 2px solid rgb(255, 0, 170); */
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px;
+  width: 100%;
+}
+
+.App .numContainer div{
+
+  width: 100%;
+  max-width: 42%;
+}
+
+.App .numContainer div input{
+  padding: 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: #181831;
+  color: #9cff9c;
+}
+.btn{
+
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  background-color: #292977;
+  color: #fff;
+  padding: 14px;
+  width: 100%;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 592px) {
+  .App {
+    /* background-color: lightgreen; */
+    min-height: 93vh;
+    
+  }
+  .App .container{
+    margin: 23px;
+   
+  }
+}
